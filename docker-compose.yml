@@ -1,0 +1,10 @@
+services:
+  english_bot:
+    build: .
+    container_name: english_bot
+    restart: unless-stopped
+    command: python main.py
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env

@@ -1,0 +1,6 @@
+.env
+data/
+*.db
+*.ogg
+__pycache__/
+venv/
